@@ -1,0 +1,172 @@
+.container
+{
+	display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-columns: minmax(100px,auto); 
+}
+.head_title
+{
+	position: absolute;
+	width: 100%;
+	height:300px;
+	background-color: #34aa99;
+	left: 0px;
+	top:0px;
+}
+.head_title #box
+{
+	position: absolute;
+	border:2px #ffffff solid;
+	width: 400px;
+	height: 200px;
+	margin-top: 40px;
+	left: 40%;
+
+}
+.head_title #box h1
+{
+	color: #fff;
+	text-align: center;
+	margin-top: 60px;
+}
+.head_title #box h4
+{
+	color: #fff;
+	text-align: center;
+}
+
+.innercontainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
+}
+.sidebar
+{
+	grid-gap:1em;
+}
+.mainlowersec
+{
+	padding-right: 50px;
+	padding-left: 100px;
+
+}
+
+.contact_sec
+{
+	position: absolute;
+	width: 300px;
+	height: 1300px;
+	background-color: #e7e7e7;
+	top: 320px;
+
+}
+.contact_sec #dp
+{
+	position: absolute;
+	width: 220px;
+	height: 220px;
+	border-radius: 120px;
+	margin-left: 40px;
+	margin-top: 70px;
+
+}
+.contact_sec .contact
+{
+	position:absolute;
+	text-decoration: none;
+	top: 320px;
+	margin-left: -20px;
+}
+.contact_sec .contact li
+{
+	text-decoration: none;
+	display: block;
+}
+.contact_sec .contact li span
+{
+	padding-right: 15px;
+	display: inline;
+}
+.contact_sec hr
+{
+	position: absolute;
+	background-color: grey;
+	width: 90%;
+	height: 1px;
+	top: 500px;
+	margin-left: 10px;
+	margin-right: 10px;
+
+}
+
+.socials
+{
+	position: absolute;
+	top:850px;
+	margin-left: -20px;
+	text-decoration: none;
+
+}
+.socials li
+{
+	margin-bottom: 10px;
+	display: block;
+}
+.socials li span
+{
+	padding-right: 10px;
+	display: inline;
+	color: blue;
+	text-decoration: none;	
+}
+.socials .fa-instagram
+{
+	color: #e66465;
+}
+.socials .fa-linkedin
+{
+	color:#4b81d8;
+}
+
+.socials.fa-facebook
+{
+	color:#4b81d8;
+}
+
+.main
+{
+	grid-column: 2/4;
+}
+.innerwrap
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+}
+
+.cv_body
+{
+	position: absolute;
+	width: 70%;
+	height: 100%;
+	top: 320px;
+	left: 430px;
+}
+.cv_body #bib p
+{
+	line-height: 30px;
+	width: 80%;
+	padding-bottom: 40px;
+	border-bottom: 2px #e7e7e7 solid;
+}
+.cv_body .educa
+{
+	border-bottom: 2px #e7e7e7 solid;
+	width: 80%;
+}
+.cv_body .educa p
+{
+	line-height: 3px;
+	width: 80%;
+	padding-bottom: 40px;
+}
